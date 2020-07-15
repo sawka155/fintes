@@ -127,7 +127,6 @@ body {
 .block-1__btn {
   font: "Century Gothic";
   font-weight: bold;
-  cursor: pointer;
   display: flex;
   justify-content: space-around;
 }
@@ -146,6 +145,9 @@ body {
 }
 .block-1__btn p:nth-child(1) {
   font-size: 10px;
+}
+.block-1 #vk, .block-1 #inst {
+  cursor: pointer;
 }
 .block-1 #vk:hover, .block-1 #inst:hover {
   filter: invert(100%);

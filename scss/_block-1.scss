@@ -38,7 +38,6 @@
 
 	&__btn {
 		@include bold;
-		cursor: pointer;
 		display: flex; justify-content: space-around; 
 		&__o {
 			width: 140px; height: 40px;
@@ -55,7 +54,10 @@
 			font-size: 10px;
 		}
 	}
-	#vk:hover, #inst:hover{
+	#vk,#inst{			
+		cursor: pointer;
+	}
+	#vk:hover, #inst:hover{	
 		filter: invert(100%);transition: 0.6s;	
 	}	
 }
