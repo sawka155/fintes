@@ -1,0 +1,9 @@
+@mixin bold{
+font: "Century Gothic";
+font-weight: bold;
+}
+
+@mixin regular{
+font-family: Century Gothic;
+font-weight: normal;
+}

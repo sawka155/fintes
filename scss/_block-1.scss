@@ -1,0 +1,64 @@
+.block-1 {	
+	width: 100%; height: 100%;
+	display: flex;
+
+	&__container {	
+		display: flex;
+		width: 100%;
+		color: white;			
+		justify-content: center; align-items: center;
+	}
+
+	&__content{
+		width: 400px; height: 234px;
+		display: flex; flex-direction: column;
+		justify-content: space-around;
+	}
+
+	&__text{	
+		display: block; text-align: center; 
+		p:nth-child(1){
+			@include bold;
+			font-size: 54px;
+			padding-bottom: 20px;
+		}
+		p:nth-child(2){
+			@include regular;
+			font-size: 36px;
+		}
+
+	}
+
+	&__bg {
+	background: url("../img/block-1/block-1__bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40%;
+	}
+
+	&__btn {
+		@include bold;
+		cursor: pointer;
+		display: flex; justify-content: space-around; 
+		&__o {
+			width: 140px; height: 40px;
+			background: #000000;border-radius: 5px;	
+			display: flex; 
+		}
+		&__o__text{
+			margin: auto 0px;
+		}
+		img{
+			padding: 5px;
+		}
+		p:nth-child(1){
+			font-size: 10px;
+		}
+	}
+}
+
+
+
+
+
+
