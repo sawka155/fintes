@@ -126,6 +126,7 @@ header .navbar__menu {
 header .navbar_menu__active {
   color: white;
   display: none;
+  opacity: 0;
   padding-bottom: 4px;
 }
 header .navbar_menu__active .container {

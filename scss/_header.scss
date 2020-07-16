@@ -33,6 +33,7 @@ header{
 		&__active {
 			color: white;
 			display: none; //FLEX to NONE
+			opacity: 0;
 			padding-bottom: 4px;
 			.container{
 				width: 718px;
