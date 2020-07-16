@@ -1,0 +1,133 @@
+.block-2 {
+	width: 100%; height: 500px;
+	display: flex;justify-content: center;
+	&__bg {
+		background: url("../img/block-2/block-2__bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 65%;
+		background-attachment: fixed;
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;align-items: center;
+		align-items: center;
+	}
+	&__text {
+		@include bold;
+		color: white;
+		font-size: 54px;	
+		text-align: center;
+	}
+	.line{
+		background: white; 
+		margin: 12px 0;
+	}
+	.block-2-map {	
+		display: flex; 
+		border-radius: 10px;
+		max-width: 100%;height: 240px;
+		background: white; 
+		img:nth-child(1){
+			margin-top: 15%;
+		}
+
+		img:nth-child(2){
+			display: flex;
+			margin-top: -63px;
+		}
+		&__content {
+			display: flex; 
+			padding: 0 6px;
+		}
+		&_block{
+			margin: 0 3px;
+			display: flex;
+			flex-direction: column; 
+			width: 100%;
+			border-right: 0px solid #EDEBEB; background: white;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+
+		&_block:last-child{
+			border-right: 0; 
+		}	
+
+		&_text{
+			display: flex; flex-direction: column; height: 70px; justify-content: space-around; margin-top: 40px; padding: 0 5px;
+			text-align: center; 
+			margin-top: 1; 
+		}
+		&_block:hover{
+			cursor: pointer;
+			filter: invert(100%);transition: 0.6s;				
+		}
+		&_block:focus{
+			cursor: pointer;
+			filter: invert(100%);transition: 0.6s;				
+		}
+	}
+}
+
+.container {
+	display: flex;justify-content: center;
+
+}
+
+@media (max-width: 768px) {	
+	.block-2{
+		&__text{
+			font-size: 44px;
+		}
+	}
+
+	.block-2-map {	
+		height: 165px !important;
+		
+		&_block{
+			align-items: center;
+			img:nth-child(1){width: 40%;}
+			img:nth-child(2){width: 15%; padding-top:30px;}
+		}
+		&_text{
+			font-size: 10px;
+		}
+		&_text{
+			margin-top: 15px !important;
+			height: 60px !important;
+		}
+	}
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 500px) {	
+	.block-2{
+		&__text{
+			font-size: 26px;
+		}
+	}
+
+	.block-2-map {	
+		height: 100px !important;
+		
+		&_block{
+			align-items: center;
+			img:nth-child(1){width: 35%;}
+			img:nth-child(2){width: 15%; padding-top:45px;}
+		}
+		&_text{
+			font-size: 7px;
+		}
+		&_text{
+			margin-top: 10px !important;
+			height: 50px !important;
+			padding: 0 1px !important;
+		}
+	}
+	.container{
+		width: 300px;
+	}
+}
+
