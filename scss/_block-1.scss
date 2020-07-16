@@ -38,7 +38,7 @@
 
 	&__btn {
 		@include bold;
-		display: flex; justify-content: space-around; 
+		display: flex; justify-content: space-around; 	
 		&__o {
 			width: 140px; height: 40px;
 			background: #000000;border-radius: 5px;	
@@ -47,6 +47,7 @@
 				display: flex;
 			}
 		}
+
 		&__o__text{
 			margin: auto 0px;
 		}
@@ -60,10 +61,10 @@
 	#vk,#inst{			
 		cursor: pointer;
 	}
-	#vk:hover, #inst:hover{	
+	#vk:hover #inst:hover{	
 		filter: invert(100%);transition: 0.6s;	
 	}	
-	#vk:focus, #inst:focus{	
+	#vk:active #inst:active{	
 		filter: invert(100%);transition: 0.6s;	
 	}	
 }
