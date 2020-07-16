@@ -223,11 +223,11 @@ header .communication__active .container {
 .block-1 #vk, .block-1 #inst {
   cursor: pointer;
 }
-.block-1 #vk:hover #inst:hover {
+.block-1 #vk:hover, .block-1 #inst:hover {
   filter: invert(100%);
   transition: 0.6s;
 }
-.block-1 #vk:active #inst:active {
+.block-1 #vk:active, .block-1 #inst:active {
   filter: invert(100%);
   transition: 0.6s;
 }
