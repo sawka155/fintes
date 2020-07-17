@@ -103,7 +103,6 @@ header a, header p {
   align-items: center;
   color: #D7D7D7;
   font-size: 12px;
-  padding: 0 10px 0 0;
 }
 header img {
   margin: 2px;
@@ -128,12 +127,19 @@ header .navbar_menu__active {
   display: none;
   opacity: 0;
   padding-bottom: 4px;
+  padding-bottom: 4px;
 }
-header .navbar_menu__active .container {
+header .navbar_menu__active .header_container {
   width: 718px;
 }
-header .container {
+header .navbar_menu__active a, header .navbar_menu__active p {
+  padding: 4px 10px 4px 10px;
+}
+header .header_container {
   justify-content: space-between;
+  width: 770px;
+  display: flex;
+  box-sizing: border-box;
 }
 header #comm {
   display: none;
@@ -143,7 +149,7 @@ header .communication__active {
   display: none;
   padding: 0 10px 4px 10px;
 }
-header .communication__active .container {
+header .communication__active .header_container {
   width: 718px;
 }
 
@@ -212,6 +218,10 @@ header .communication__active .container {
 .block-1__btn__o__content {
   display: flex;
 }
+.block-1__btn__o img {
+  width: 40px;
+  height: 40px;
+}
 .block-1__btn__o__text {
   margin: auto 0px;
 }
@@ -257,7 +267,7 @@ header .communication__active .container {
     align-items: center;
   }
   .block-1__btn__o {
-    width: 85%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     margin: 2px 0px;
@@ -280,17 +290,6 @@ header .communication__active .container {
   }
   .block-1__text p:nth-child(2) {
     font-size: 26px;
-  }
-  .block-1__btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .block-1__btn__o {
-    width: 85%;
-    justify-content: center;
-    align-items: center;
-    margin: 2px 0px;
   }
 }
 .block-2 {

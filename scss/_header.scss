@@ -8,7 +8,7 @@ header{
 		align-items: center;
 		color: #D7D7D7;
 		font-size: 12px;
-		padding: 0 10px 0 0;
+		
 	}
 	img{
 		margin: 2px;
@@ -35,13 +35,19 @@ header{
 			display: none; //FLEX to NONE
 			opacity: 0;
 			padding-bottom: 4px;
-			.container{
+			padding-bottom: 4px;
+			.header_container{
 				width: 718px;
+			}
+			a,p{
+				padding: 4px 10px 4px 10px;
 			}
 		}
 	}
-	.container{
+	.header_container{
 		justify-content: space-between;
+		width: 770px; display: flex;
+		box-sizing: border-box;
 	}
 	#comm{display: none;}
 	.communication {
@@ -49,7 +55,7 @@ header{
 			color: white;
 			display: none; //FLEX to NONE
 			padding: 0 10px 4px 10px;
-			.container{
+			.header_container{
 				width: 718px;
 			}
 

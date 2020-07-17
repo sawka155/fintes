@@ -1,7 +1,10 @@
 $("#menu").mouseup(function(e){
 	$(".navbar_menu__active").css({'opacity':'1', 'display':'flex', 'transition':'1s'})
 	$("*").mousedown(function(e){
-	$(".navbar_menu__active").css({'opacity':'0', 'display':'none', 'transition':'1s'})});		
+	    if ($(".navbar_menu__active").has(e.target).length === 0){
+	        $(".navbar_menu__active").css({'opacity':'0', 'display':'none', 'transition':'1s'});
+	    }
+	});	
 });
 //header: menu
 $("#comm").mouseup(function(e){
