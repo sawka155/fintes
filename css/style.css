@@ -306,7 +306,7 @@ header .communication__active .header_container {
   background-attachment: fixed; 
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-device-width: 480px) {
   .block-2__bg{
     background-attachment: scroll;
   }
