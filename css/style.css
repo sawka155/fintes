@@ -1,8 +1,4 @@
 @charset "UTF-8";
-html {
-  overflow: hidden;
-  background: #f0f0f0;
-}
 /*Обнуление*/
 * {
   padding: 0;
@@ -93,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Century Gothic;
   font-weight: normal;
+  overflow: hidden; 
 }
 
 header {
