@@ -297,13 +297,14 @@ header .communication__active .header_container {
   height: 500px;
   display: flex;
   justify-content: center;
+  position: fixed; 
+  z-index: -99
 }
 .block-2__bg {
   background: url("../img/block-2/block-2__bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 65%;
-  background-attachment: fixed;
 }
 .block-2__content {
   display: flex;
