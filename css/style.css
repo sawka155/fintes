@@ -297,15 +297,14 @@ header .communication__active .header_container {
   height: 500px;
   display: flex;
   justify-content: center;
-   
-  z-index: 1;
+  position: fixed; 
 }
 .block-2__bg {
   background: url("../img/block-2/block-2__bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 65%;
-  position: fixed;
+  background-attachment: scroll; 
 }
 .block-2__content {
   display: flex;
@@ -313,6 +312,7 @@ header .communication__active .header_container {
   justify-content: center;
   align-items: center;
   align-items: center;
+  z-index: 1;
 }
 .block-2__text {
   font: "Century Gothic";
