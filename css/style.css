@@ -456,3 +456,8 @@ header .navbar_communication__container__active p, header .navbar_communication_
     margin-bottom: -25px;
   }
 }
+
+@media (max-device-width: 480px) {
+  .block-2__bg{
+    background-attachment: scroll;
+  }
