@@ -105,13 +105,18 @@
 @media (max-width: 500px) {	
 	.container{width: 300px;}
 	.block-2{
+		&__bg {
+			background-attachment: scroll;
+		}
 		&__text{
 			font-size: 30px;
 		}
 		.block-2-map {
+
 			max-height: 100px;	
 			&_block_content {						
 				img{
+					padding-top: 10px;
 					max-width: 45%;
 				}
 			}						

@@ -437,6 +437,9 @@ header .navbar_communication__container__active p, header .navbar_communication_
     width: 300px;
   }
 
+  .block-2__bg {
+    background-attachment: scroll;
+  }
   .block-2__text {
     font-size: 30px;
   }
@@ -444,6 +447,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
     max-height: 100px;
   }
   .block-2 .block-2-map_block_content img {
+    padding-top: 10px;
     max-width: 45%;
   }
   .block-2 .block-2-map_text {
@@ -456,8 +460,3 @@ header .navbar_communication__container__active p, header .navbar_communication_
     margin-bottom: -25px;
   }
 }
-
-@media (max-device-width: 480px) {
-  .block-2__bg{
-    background-attachment: scroll;
-  }
