@@ -1,16 +1,28 @@
 $("#menu").mouseup(function(e){
-	$(".navbar_menu__active").css({'opacity':'1', 'display':'flex', 'transition':'1s'})
+	$(".navbar_menu__active").css({'opacity':'1', 'visibility':'visible', 'transition':'0.5s'})
 	$("*").mousedown(function(e){
 	    if ($(".navbar_menu__active").has(e.target).length === 0){
-	        $(".navbar_menu__active").css({'opacity':'0', 'display':'none', 'transition':'1s'});
+	        $(".navbar_menu__active").css({'opacity':'0', 'visibility':'hidden', 'transition':'0.5s'});
 	    }
 	});	
 });
 //header: menu
+if(window.matchMedia('(max-width: 500px)').matches){
+	 $(".navbar_menu__container__active a").mousemove(function(e){
+		$(this).css({'background':'white', 'color':'black', 'transition':'0.6s', 'cursor':'pointer'})
+		$(this).mouseout(function(e){
+		$(this).css({'background':'none', 'color':'white', 'transition':'0.6s', 'cursor':'pointer'})});		
+	 });
+}
+//Подсветка header: menu
+
 $("#comm").mouseup(function(e){
-	$(".communication__active").css({'opacity':'1', 'display':'flex', 'transition':'1s'})
+	$(".navbar_communication__active").css({'opacity':'1', 'visibility':'visible', 'transition':'0.5s'})
 	$("*").mousedown(function(e){
-	$(".communication__active").css({'opacity':'0', 'display':'none', 'transition':'1s'})});		
+	    if ($(".navbar_communication__active").has(e.target).length === 0){
+	        $(".navbar_communication__active").css({'opacity':'0', 'visibility':'hidden', 'transition':'0.5s'});
+	    }
+	});	
 });
 //header: call
 

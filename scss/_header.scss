@@ -6,9 +6,10 @@ header{
 		text-transform: uppercase; 
 		display: flex;
 		align-items: center;
+		font-size: 12px;		
+	}
+	a{
 		color: #D7D7D7;
-		font-size: 12px;
-		
 	}
 	img{
 		margin: 2px;
@@ -22,55 +23,96 @@ header{
 		color:white;
 		transition: 0.6s;	
 	}
-	.navbar{
-		background: rgba(17, 17, 17, 0.76);
+	.navbar{		
 		&__menu{
 			display: flex; justify-content: center;
-		}
+			background: rgba(17, 17, 17, 0.76);
+		}		
 	}
 
-	.navbar_menu {		
-		&__active {
-			color: white;
-			display: none; //FLEX to NONE
-			opacity: 0;
-			padding-bottom: 4px;
-			padding-bottom: 4px;
-			.header_container{
-				width: 718px;
-			}
-			a,p{
-				padding: 4px 10px 4px 10px;
-			}
-		}
-	}
 	.header_container{
 		justify-content: space-between;
 		width: 770px; display: flex;
 		box-sizing: border-box;
+		padding: 0 24px 0 0;
 	}
 	#comm{display: none;}
-	.communication {
+
+	.navbar_menu {
 		&__active {
 			color: white;
-			display: none; //FLEX to NONE
-			padding: 0 10px 4px 10px;
-			.header_container{
-				width: 718px;
-			}
-
+			opacity: 0;	
+			visibility: hidden;		
 		}
-	}
-	
+		&__container {
+			&__active {				
+				display: flex;
+				width: 770px;
+				justify-content: space-between;
+				p,a{
+					padding: 2px 5px 3px 5px;
+					padding-right: 12px;
+					padding-left: 13px;
+				}
+			}
+		}
+	}	
 
-
-	
+	.navbar_communication {		
+		&__active {			
+			opacity: 0;	
+			visibility: hidden;		
+			position: absolute; width: 100%; top: 24px;
+		}
+			&__container {
+			&__active {				
+				display: flex;
+				width: 770px;
+				justify-content: space-between;
+				p,a{
+					padding: 2px 5px 3px 5px;
+				}
+			}
+		}
+	}	
 }
 
-@media (max-width: 560px) {
+
+
+
+@media (max-width: 500px) {
 	header{
 		#tel,#mail{display: none;}
-		#comm{display: flex; padding-right: 10px;}
+		#comm{
+			display: flex;
+		}
 	}
+	.header_container{
+		padding: 0;
+	}
+
+	.navbar_menu {		
+		&__container {
+			&__active {						
+				display: inline-flex;
+				flex-direction: column; 
+				align-items: center;						
+				p,a{
+					width: 100%;	
+				}
+			}
+		}
+	}
+
+		.navbar_communication {			
+			&__container {
+			&__active {	
+				display: flex; 	
+				p,a{
+					margin: 0 20px;
+				}
+			}
+		}
+	}	
 }
 

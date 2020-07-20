@@ -56,10 +56,7 @@
 
 		&_text{
 			display: flex; flex-direction: column; height: 70px; justify-content: space-around; margin-top: 40px; padding: 0 5px;
-			text-align: center; 
-			strong{
-
-			}
+			text-align: center; 			
 		}
 		&_block:hover{
 			cursor: pointer;
@@ -105,31 +102,6 @@
 	}
 }
 @media (max-width: 500px) {	
-	.block-2{
-		&__text{
-			font-size: 26px;
-		}
-	}
-
-	.block-2-map {	
-		height: 100px !important;
-		
-		&_block{
-			align-items: center;
-			img:nth-child(1){width: 35%;}
-			img:nth-child(2){width: 15%; padding-top:45px;}
-		}
-		&_text{
-			font-size: 7px;
-		}
-		&_text{
-			margin-top: 10px !important;
-			height: 50px !important;
-			padding: 0 1px !important;
-		}
-	}
-	.container{
-		width: 300px;
-	}
+	
 }
 
