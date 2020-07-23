@@ -431,7 +431,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
 
 @media (max-width: 500px) {
   .block-2 {
-    height: 500px;
+    height: 450px;
   }
 
   .block-2__bg {
