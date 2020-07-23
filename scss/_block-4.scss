@@ -1,0 +1,33 @@
+.block-4 {
+	width: 100%; 
+	.block-4-top {		
+		height: 100px;	
+		&__bg {
+			background: url("../img/block-3/block-3-top__bg.jpg") no-repeat;
+			background-position: 50% 18%;
+			height: 100%;			
+			display: flex;
+			justify-content: center; align-items: center; flex-direction: column;
+			&__text {}
+		}
+	}
+	.line {
+	}
+	.container {
+	}
+	.block-4-content {
+	}
+	.step-menu {
+	}
+	.step {
+	}
+	@media (max-width: 500px) {
+		.block-3-top__bg__text{font-size: 44px;}				
+	}
+	@media (max-width: 400px) {
+		.block-3-top__bg__text{font-size: 40px;}
+	}
+}
+@media (max-width: 500px) {
+	.block-4{height: 425px;}
+}
