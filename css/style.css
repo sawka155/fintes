@@ -465,7 +465,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
   margin-top: 10px;
   height: 2px;
   width: 200px;
-  background: #1089A4;
+  background: #2E3163;
 }
 @media (min-width: 1900px) {
   .block-3 .block-3-top__bg {
@@ -505,7 +505,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
   font: "Century Gothic";
   font-weight: bold;
   font-size: 28px;
-  color: #1089A4;
+  color: #2E3163;
   margin: 0 0 5px 0;
 }
 .block-3 .block-3-content .step-menu .step__text p {
