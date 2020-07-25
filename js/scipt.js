@@ -47,7 +47,24 @@ $(".block-2-menu__block").mousemove(function(e){
 	$(this).css({'filter':'none'})});		
 });
 //block-2: btn1-4
-	
+
+$("#block-1_nav").click(function(){
+	$('[name="block-1_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#block-2_nav").click(function(){
+	$('[name="block-2_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#block-3_nav").click(function(){
+	$('[name="block-3_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#block-4_nav").click(function(){
+	$('[name="block-4_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#block-5_nav").click(function(){
+	$('[name="block-5_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+
+
 
 
 	
