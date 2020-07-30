@@ -72,7 +72,7 @@
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
 	.block-1{
 		&__text{				
 			p:nth-child(1){font-size: 44px;}
@@ -84,7 +84,7 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
 	.block-1{		
 		&__text{			
 			p:nth-child(1){font-size: 40px;}

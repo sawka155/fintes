@@ -26,7 +26,7 @@
 	}
 	.line{
 		background: white; 
-		margin: 5px 0 15px 0;
+		margin: 15px 0 30px 0;
 	}
 	.block-2-menu {	
 	padding: 0 12px;	
@@ -80,7 +80,11 @@
 			img{
 				width: 35px;
 			}
-		}		
+		}	
+		.line{
+			background: white; 
+			margin: 5px 0 15px 0;
+		}	
 	}
 	@media (max-width: 395px) {
 		.block-2__text{font-size: 32px;}
