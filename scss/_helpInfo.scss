@@ -23,7 +23,7 @@
 	background: #FFC700; 
 	margin: 15px 0 30px 0; 
 }
-.block {	
+.Info-block {	
 	&_numeral {
 		@include bold; font-size: 54px;
 		margin: auto 61px auto 53px;
@@ -42,7 +42,7 @@
 @media (max-width: 768px) {
 	.container{max-width: 640px;}	
 	.helpInfo__content{height: 320px;}
-	.block_numeral{margin: auto 47px auto 40px;}
+	.Info-block_numeral{margin: auto 47px auto 40px;}
 }
 
 @media (max-width: 425px) {	
@@ -57,7 +57,7 @@
 	.container{max-width: 360px;}	
 	.helpInfo__content{height: 195px;}
 	.helpInfo__title{font-size: 32px;}	
-	.block{
+	.Info-block{
 		&_text{font-size: 10px;}
 		&_numeral{font-size: 32px; margin: auto 30px auto 22.5px;}
 		&__wrap{height: 60px;}
@@ -68,7 +68,7 @@
 	.container{max-width: 320px;}	
 	.helpInfo__content{height: 175px;}
 	.helpInfo__title{font-size: 30px;}	
-	.block{
+	.Info-block{
 		&_text{font-size: 10px;}
 		&_numeral{font-size: 32px; margin: auto 20px auto 22.5px;}
 		&__wrap{height: 50px;}

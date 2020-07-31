@@ -582,18 +582,18 @@ header .navbar_communication__container__active p, header .navbar_communication_
   margin: 15px 0 30px 0;
 }
 
-.block_numeral {
+.Info-block_numeral {
   font: "Century Gothic";
   font-weight: bold;
   font-size: 54px;
   margin: auto 61px auto 53px;
 }
-.block_text {
+.Info-block_text {
   width: 510px;
   font-size: 18px;
   padding-right: 15px;
 }
-.block__wrap {
+.Info-block__wrap {
   background: url("../img/helpInfo/wrap.svg");
   background-repeat: no-repeat;
   height: 100px;
@@ -612,7 +612,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
     height: 320px;
   }
 
-  .block_numeral {
+  .Info-block_numeral {
     margin: auto 47px auto 40px;
   }
 }
@@ -644,14 +644,14 @@ header .navbar_communication__container__active p, header .navbar_communication_
     font-size: 32px;
   }
 
-  .block_text {
+  .Info-block_text {
     font-size: 10px;
   }
-  .block_numeral {
+  .Info-block_numeral {
     font-size: 32px;
     margin: auto 30px auto 22.5px;
   }
-  .block__wrap {
+  .Info-block__wrap {
     height: 60px;
   }
 }
@@ -668,15 +668,79 @@ header .navbar_communication__container__active p, header .navbar_communication_
     font-size: 30px;
   }
 
-  .block_text {
+  .Info-block_text {
     font-size: 10px;
   }
-  .block_numeral {
+  .Info-block_numeral {
     font-size: 32px;
     margin: auto 20px auto 22.5px;
   }
-  .block__wrap {
+  .Info-block__wrap {
     height: 50px;
   }
+}
+/*--------------------*/
+/*Блок_3*/
+.howStart {
+  width: 100%;
+  height: 600px;
+}
+.howStart_top {
+  height: 100px;
+}
+.howStart_main {
+  width: 790px;
+  padding: 0 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howStart__title {
+  font: "Century Gothic";
+  font-weight: bold;
+  font-size: 54px;
+}
+
+.howStart_top__bg {
+  background: url("../img/block-3/howStart_top__bg.jpg") no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  margin-top: 10px;
+  height: 2px;
+  width: 200px;
+  background: #2E3163;
+}
+
+.howStart-block {
+  display: flex;
+}
+.howStart-block_numeral img {
+  width: 75px;
+}
+.howStart-block_title strong {
+  font: "Century Gothic";
+  font-weight: bold;
+  font-size: 28px;
+  color: #2E3163;
+  margin: 0 0 5px 0;
+}
+.howStart-block_text {
+  margin: 0 0 0 10px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.howStart-block_text p {
+  font-size: 18px;
+  color: #444343;
 }
 /*--------------------*/
