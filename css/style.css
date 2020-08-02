@@ -755,6 +755,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
 .services__bg {
   background: url("../img/services/services__bg.jpg");
   background-size: cover;
+  background-position: center 10%;
 }
 .services .line {
   background: white;
@@ -897,6 +898,7 @@ footer {
 }
 @media (max-width: 425px) {
   .footer {
+    height: 50px;
     font-size: 9px;
   }
   .footer_container {

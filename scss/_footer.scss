@@ -29,6 +29,7 @@ footer{
 
 @media (max-width: 425px){
 	.footer{
+		height: 50px;
 		&_container {max-width: 425px; padding: 0 10px;}
 		font-size: 9px;
 	}
