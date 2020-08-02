@@ -753,9 +753,9 @@ header .navbar_communication__container__active p, header .navbar_communication_
   min-width: 770px;
 }
 .services__bg {
-  background: url("../img/services/services__bg.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/services__bg.jpg");
   background-size: cover;
-  background-position: center 10%;
+  background-position: center 25%;
 }
 .services .line {
   background: white;

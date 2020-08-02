@@ -15,9 +15,9 @@
 	}
 	&_content-container {min-width: 770px;}
 	&__bg {
-		background: url("../img/services/services__bg.jpg");
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/services/services__bg.jpg");
 		background-size: cover;
-		background-position: center 10%;
+		background-position: center 25%;
 	}
 	.line {background: white; margin: 10px 0 10px 0;}
 }
