@@ -880,7 +880,27 @@ footer {
 .footer_tagline {
   margin-top: 10px;
   color: black;
+  text-align: center;
 }
 .footer__navbar-text {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 11.5px;
+  }
+  .footer_container {
+    max-width: 425px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 425px) {
+  .footer {
+    font-size: 9px;
+  }
+  .footer_container {
+    max-width: 425px;
+    padding: 0 10px;
+  }
 }
