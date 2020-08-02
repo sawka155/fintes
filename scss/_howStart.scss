@@ -4,7 +4,6 @@
 	flex-direction: column;
 	&_top {		
 		display: flex; 
-		justify-content: space-evenly; 
 		align-items: center; 
 		flex-direction: column;
 	}
@@ -21,7 +20,7 @@
 		font-size: 54px;
 		display: flex; 
 	}
-	.line {background: #00088E; margin: -15px 0px 0px 0px }
+	.line {background: #00088E; position: relative; margin: 15px 0 30px 0;  }
 }
 .howStart_top {
 	&__bg {
@@ -32,7 +31,7 @@
 }
 
 .howStart_main {
-	&__content {height: 100%;display: flex; flex-direction: column; justify-content: space-evenly;}
+	&__content {height: 100%;display: flex; flex-direction: column; justify-content: space-around;}
 }
 .howStart-block {		
 	&_numeral {margin-right: 10px;}
@@ -48,7 +47,7 @@
 
 @media (max-width: 425px) {
 	.howStart{		
-		.line {margin: 0}
+		.line {margin: 5px 0 0px 0;}
 	}	
 	.howStart_top__bg{height: 60px;}
 	.howStart__title {font-size: 38px;}
