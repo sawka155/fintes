@@ -79,6 +79,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "Century Gothic-Bold";
+  src: url("../fonts/Bold/CenturyGothic-Bold.eot");
+  src: url("../fonts/Bold/CenturyGothic-Bold.eot?iefix") format("eot"), url("../fonts/Bold/CenturyGothic-Bold.woff") format("woff"), url("../fonts/Bold/CenturyGothic-Bold.ttf") format("truetype"), url("../fonts/Bold/CenturyGothic-Bold.svg#webfont") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Century Gothic-Regular";
+  src: url("../fonts/Regular/CenturyGothic.eot");
+  src: url("../fonts/Regular/CenturyGothic.eot?iefix") format("eot"), url("../fonts/Regular/CenturyGothic.woff") format("woff"), url("../fonts/Regular/CenturyGothic.ttf") format("truetype"), url("../fonts/Regular/CenturyGothic.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .line {
   width: 200px;
   height: 2px;
@@ -91,8 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Century Gothic;
-  font-weight: normal;
+  font-family: Century Gothic-Regular;
   overflow-x: hidden;
 }
 
@@ -212,8 +225,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
   background-position: 40%;
 }
 .homePage__content {
-  font: "Century Gothic";
-  font-weight: bold;
+  font-family: Century Gothic-Bold;
   display: flex;
   flex-direction: column;
   color: white;
@@ -232,8 +244,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
 }
 .title p:nth-child(2) {
   padding-top: 20px;
-  font-family: Century Gothic;
-  font-weight: normal;
+  font-family: Century Gothic-Regular;
   font-size: 36px;
 }
 
@@ -323,15 +334,15 @@ header .navbar_communication__container__active p, header .navbar_communication_
   align-items: center;
 }
 .block-2__text {
-  font: "Century Gothic";
-  font-weight: bold;
+  font-family: Century Gothic-Bold;
   color: white;
   font-size: 54px;
   text-align: center;
+  line-height: 55px;
 }
 .block-2 .line {
   background: white;
-  margin: 15px 0 30px 0;
+  margin: 10px 0 30px 0;
 }
 .block-2 .block-2-menu {
   padding: 0 12px;
@@ -389,6 +400,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
 @media (max-width: 425px) {
   .block-2 .block-2__text {
     font-size: 38px;
+    line-height: 40px;
   }
   .block-2 .block-2-menu__screen {
     font-size: 8px;
@@ -403,12 +415,13 @@ header .navbar_communication__container__active p, header .navbar_communication_
   }
   .block-2 .line {
     background: white;
-    margin: 5px 0 30px 0;
+    margin: 5px 0 15px 0;
   }
 }
 @media (max-width: 395px) {
   .block-2 .block-2__text {
     font-size: 32px;
+    line-height: 30px;
   }
   .block-2 .block-2-menu__screen {
     font-size: 7px;
@@ -457,8 +470,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
   background-position: 80%;
 }
 .helpInfo__title {
-  font: "Century Gothic";
-  font-weight: bold;
+  font-family: Century Gothic-Bold;
   font-size: 54px;
   text-align: center;
 }
@@ -474,8 +486,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
 }
 
 .Info-block_numeral {
-  font: "Century Gothic";
-  font-weight: bold;
+  font-family: Century Gothic-Bold;
   font-size: 54px;
   margin: auto 61px auto 53px;
 }
@@ -595,8 +606,7 @@ header .navbar_communication__container__active p, header .navbar_communication_
   background: white;
 }
 .howStart__title {
-  font: "Century Gothic";
-  font-weight: bold;
+  font-family: Century Gothic-Bold;
   color: white;
   font-size: 54px;
   display: flex;
@@ -624,8 +634,10 @@ header .navbar_communication__container__active p, header .navbar_communication_
   margin-right: 10px;
 }
 .howStart-block_title {
+  font-family: Century Gothic-Bold;
   color: #2E3163;
   font-size: 28px;
+  margin-bottom: 5px;
 }
 .howStart-block_text {
   color: #444343;
@@ -636,9 +648,14 @@ header .navbar_communication__container__active p, header .navbar_communication_
   align-items: center;
 }
 .howStart-block__content {
-  height: 75px;
+  height: 60px;
 }
 
+@media (max-width: 768px) {
+  .howStart-block__content {
+    height: 65px;
+  }
+}
 @media (max-width: 425px) {
   .howStart .line {
     margin: 0;

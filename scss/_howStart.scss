@@ -36,12 +36,15 @@
 }
 .howStart-block {		
 	&_numeral {margin-right: 10px;}
-	&_title {color: #2E3163; font-size: 28px;}
+	&_title {@include bold;color: #2E3163; font-size: 28px;margin-bottom: 5px;}
 	&_text {color: #444343; font-size: 18px;}
 	&__wrap {display: flex; align-items: center; }
-	&__content{height: 75px;}
+	&__content{height: 60px;}
 }
 
+@media (max-width: 768px) {
+	.howStart-block__content{height: 65px;}
+}
 
 @media (max-width: 425px) {
 	.howStart{		
