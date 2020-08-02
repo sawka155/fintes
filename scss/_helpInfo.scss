@@ -3,10 +3,10 @@
 	width: 100%; height: 100%; color: white;
 	display: flex; justify-content: center; align-items: center; flex-direction: column;
 	&__bg{
-		background: url("../img/helpInfo/helpInfo__bg.jpg");
+		background: url("../img/helpInfo/helpInfo__bg1.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 100%;
+		background-size: cover;	
+		background-position: 80%;	
 	}
 	&__title {
 		@include bold;		
@@ -41,6 +41,12 @@
 }
 
 @media (max-width: 768px) {
+	.helpInfo__bg{
+		background: url("../img/helpInfo/helpInfo__bg_phone.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;	
+	}
 	.container{max-width: 640px;}	
 	.helpInfo__content{height: 320px;}
 	.Info-block_numeral{margin: auto 47px auto 40px;}
@@ -50,17 +56,11 @@
 	.helpInfo{ height: 550px;
 	.line {margin: 5px 0 30px 0;}
 	}	
-	.helpInfo__bg{
-		background: url("../img/helpInfo/helpInfo__bg_phone.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;	
-	}
 	.container{max-width: 360px;}	
 	.helpInfo__content{height: 195px;}
-	.helpInfo__title{font-size: 32px;}	
+	.helpInfo__title{font-size: 38px;}	
 	.Info-block{
-		&_text{font-size: 10px;}
+		&_text{font-size: 11px;}
 		&_numeral{font-size: 32px; margin: auto 30px auto 22.5px;}
 		&__wrap{
 			height: 60px;
