@@ -1,52 +1,45 @@
-/*Блок_3*/
+/*Блок_4*/
 .howStart {
-	width: 100%; height: 600px;
-	&_top {height: 100px;}
-	&_main {
-		width: 790px; 
-		padding: 0 10px;
-		height: 500px;
-		display: flex;
+	
+	&_top {				
+		display: flex; 
+		justify-content: space-evenly; 
+		align-items: center; 
 		flex-direction: column;
-		justify-content: center; 
-		align-items: center;
 	}
-	&__title {@include bold;font-size: 54px;}
+	&_main {}
+	&__title {
+		@include bold;
+		color: white;
+		font-size: 54px;
+		display: flex; 
+	}
+	.line {background: #00088E; margin: -15px 0px 0px 0px }
 }
 .howStart_top {
 	&__bg {
-		background: url("../img/block-3/howStart_top__bg.jpg") no-repeat;
-		color: white;			
-		display: flex;
-		justify-content: center; align-items: center; flex-direction: column;
+		background: url("../img/howStart/howStart_top__bg.jpg");
+		background-size: cover;
+		height: 100px; width: 100%;
 	}
 }
-.line {margin-top: 10px;height: 2px; width: 200px; background: #2E3163;}
+
 .howStart_main {
 	&__content {}
 }
-.howStart-block {
-	display: flex;
-	&_numeral {img{width: 75px;}}
-	&_title {
-		strong{
-			@include bold;
-			font-size: 28px;
-			color: #2E3163;
-			margin: 0 0 5px 0;
-		}
-	}
-	&_text {
-		margin: 0 0 0 10px;
-		height: 61px;
-		display: flex; 
-		flex-direction: column;
-		justify-content: center; 		
-		p{
-			font-size: 18px;
-			color: #444343;
-		}
+.howStart-block {	
+	&_numeral {}
+	&_title {}
+	&_text {}
+	&__wrap {display: flex; flex-direction: column;}
+}
+
+
+@media (max-width: 425px) {
+	.howStart{
+		.line {margin: 0}
 	}	
-	&__wrap {}
+	.howStart_top__bg{height: 60px;}
+	.howStart__title {font-size: 40px;}
 }
 /*--------------------*/

@@ -1,13 +1,13 @@
-<svg width="427" height="96" viewBox="0 0 427 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M47 9H387C408.539 9 426 26.4609 426 48C426 69.5391 408.539 87 387 87H47C25.4609 87 8 69.5391 8 48C8 26.4609 25.4609 9 47 9Z" fill="black" fill-opacity="0.5" stroke="#FFC700" stroke-width="2"/>
+<svg width="785" height="131" viewBox="0 0 785 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57 9H727C754.062 9 776 30.9381 776 58V73C776 100.062 754.062 122 727 122H57C29.9381 122 8 100.062 8 73V58C8 30.938 29.938 9 57 9Z" fill="black" fill-opacity="0.5" stroke="#FFC700" stroke-width="2"/>
 <g filter="url(#filter0_di)">
-<path d="M71.3636 48L82.2727 86.4H60.8856L71.3636 48Z" fill="white"/>
+<path d="M124.21 66L144.21 121.2H105L124.21 66Z" fill="white"/>
 </g>
 <g filter="url(#filter1_d)">
-<path d="M7 48C7 25.9086 24.9086 8 47 8H82.2727L60.4545 88H47C24.9086 88 7 70.0914 7 48V48Z" fill="#FFC700"/>
+<path d="M7 58C7 30.3858 29.3858 8 57 8H145L105 123H57C29.3858 123 7 100.614 7 73V58Z" fill="#FFC700"/>
 </g>
 <defs>
-<filter id="filter0_di" x="53.8856" y="40" width="48.3871" height="54.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_di" x="98" y="58" width="66.2097" height="71.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1"/>
@@ -22,7 +22,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
 <feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
 </filter>
-<filter id="filter1_d" x="0" y="0" width="91.2727" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d" x="0" y="0" width="154" height="131" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1"/>
