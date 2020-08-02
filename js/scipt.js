@@ -65,6 +65,29 @@ $("#block-5_nav").click(function(){
 });
 //scroll-to
 
+$(".footer__navbar-text").mousemove(function(e){
+	$(this).css({'color' : 'black', 'transition':'0.6s'})
+	$(this).mouseout(function(e){
+	$(this).css({'color' : '#949494', 'transition':'0.6s'})});		
+});
+//Подсветка footer
+
+$("#footer-block1").click(function(){
+	$('[name="block-1_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#footer-block2").click(function(){
+	$('[name="block-2_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#footer-block3").click(function(){
+	$('[name="block-3_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#footer-block4").click(function(){
+	$('[name="block-4_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+$("#footer-block5").click(function(){
+	$('[name="block-5_anchor"]')[0].scrollIntoView({behavior: "smooth"});
+});
+//scroll-to
 
 
 
