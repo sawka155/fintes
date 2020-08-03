@@ -35,7 +35,7 @@ header{
 		justify-content: space-between;
 		width: 770px; display: flex;
 		box-sizing: border-box;
-		padding: 0 24px 0 0;
+		padding: 0 5px 0 0;
 	}
 	#comm{display: none;}
 
@@ -51,8 +51,7 @@ header{
 				width: 770px;
 				justify-content: space-between;
 				p,a{
-					padding: 2px 5px 3px 5px;
-					padding-right: 12px;
+					padding: 2px 2.5px 3px 5px;					
 					padding-left: 13px;
 				}
 			}
@@ -76,6 +75,9 @@ header{
 			}
 		}
 	}	
+	@media (max-width: 355px) {
+		.navbar_communication__active{p,a{font-size: 10px;}}
+	}
 }
 
 
@@ -110,7 +112,7 @@ header{
 			&__active {	
 				display: flex; 	
 				p,a{
-					margin: 0 20px;
+					
 				}
 			}
 		}

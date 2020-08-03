@@ -8,7 +8,7 @@ footer{
 	height: 60px;
 	color: #949494;
 	&_container {max-width: 770px;}
-	&_navbar-wrap {width: 100%;display: flex; flex-direction: column;}
+	&_navbar-wrap {width: 100%;display: flex; flex-direction: column; }
 	&_top_navbar {display: flex; justify-content: space-between; }
 	&_tagline {
 		margin-top: 10px;		
@@ -23,7 +23,7 @@ footer{
 @media (max-width: 768px){
 	.footer{
 		&_container {max-width: 425px; padding: 0 10px;}
-		font-size: 11.5px;
+		font-size: 12px;
 	}
 }
 
@@ -31,6 +31,7 @@ footer{
 	.footer{
 		height: 50px;
 		&_container {max-width: 425px; padding: 0 10px;}
-		font-size: 9px;
+		font-size: 12px;
+		&_navbar-wrap{font-size: 9px;}
 	}
 }

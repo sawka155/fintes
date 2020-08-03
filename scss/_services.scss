@@ -48,12 +48,12 @@
 @media (max-width: 425px) {
 	.services_title-num1{font-size: 40px;}
 	.services_content-container {min-width: 360px;}
-	.services-block{width: 110px; height: 140px;
+	.services-block{width: 112.5px; height: 140px;
 		&__content {height: 120px;}
 		&__img {
 			img{height: 60px;}
 		}
-		&__text {font-size: 10px;
+		&__text {font-size: 12px;
 			padding: 0 3px;}
 	}
 }
